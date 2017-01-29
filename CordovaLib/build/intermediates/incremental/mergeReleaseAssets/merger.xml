@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Acer\.cordova\lib\npm_cache\cordova-android\4.1.1\package\bin\DengueZeroCidadao\CordovaLib\assets"/></dataSet><dataSet config="release"><source path="C:\Users\Acer\.cordova\lib\npm_cache\cordova-android\4.1.1\package\bin\DengueZeroCidadao\CordovaLib\src\release\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Acer\.cordova\lib\npm_cache\cordova-android\4.1.1\package\bin\FacebookFriends\CordovaLib\assets"/></dataSet><dataSet config="release"><source path="C:\Users\Acer\.cordova\lib\npm_cache\cordova-android\4.1.1\package\bin\FacebookFriends\CordovaLib\src\release\assets"/></dataSet></merger>
