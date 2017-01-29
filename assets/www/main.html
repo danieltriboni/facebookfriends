@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FacebookFriends</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="js/ff.jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="js/ff.jquery.mobile-1.3.2.min.js"></script>
+		<link rel="stylesheet" href="css/jquery-mobile.css">
+	</head>
+	<body>
+
+	<div data-role="page" class="jqm-demos ui-responsive-panel" id="loginPage" data-title="Facebook Friends - LOGIN">
+		<div data-role="content" class="jqm-content">
+			<form name="form-login" id="form-login" method="post" onsubmit="return false" class="div-hide">
+				<div align="center"><img id="imgLogo" src="css/images/login_with_facebook.png" width="100%"></div>
+				<br clear="all">
+				<button id="btnFB" class="btn btn-block" style="background-color:#3b5999; color: #fff;text-shadow:none;">
+					<img src="css/images/ff2.png" height="30" style="margin-top:-3px; float: left; position:absolute; margin-left: -78px;" alt="" />
+					<div id="btnFBLabel" style="margin-left:45px;">Entrar com Facebook</div></button>
+					<a href="#" id="btnExit3" data-role="button" data-theme="b">SAIR DO APP</a>
+				<br clear="all">
+			</form>
+		</div>
+	</div>
+
+	<div data-role="page" class="jqm-demos ui-responsive-panel" id="friendsPage" data-title="Facebook Friends - LISTA">
+		<div data-role="header" data-theme="b" data-position="fixed" style="z-index:10050">
+			<h1><img id="imgHeaderFeed" src="css/images/ff_header_pt.png" height="50"></h1>
+		</div>
+		<div data-role="content" class="jscroll">
+			<div class="wrapper" style="margin-left: 20px;">
+				<img id="userPic" src="" height="100" alt="" />
+			</div>
+			<div id="userName" class="textUser">...</div>
+			<div class="textFriend">Confira a lista de seus amigos:</div>
+			<a href="#" id="btnExit1" data-role="button" data-theme="b">SAIR DO APP</a>
+				<hr><div id="list"></div>
+
+		</div>
+	</div>
+
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/ff.facebook.js"></script>
+	<script type="text/javascript" src="js/ff.common.js"></script>
+	<script type="text/javascript" src="js/ff.login.js"></script>
+	<script type="text/javascript" src="js/ff.index.js"></script>
+	<div class="ui-loader-background"> </div>
+</body>
+</html>

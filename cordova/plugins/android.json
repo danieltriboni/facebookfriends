@@ -1,0 +1,54 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova.custom.plugins.exitapp": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "com-badrit-base64": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "br.com.denguezerocidadao"
+        }
+    },
+    "dependent_plugins": {}
+}
